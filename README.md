@@ -6,7 +6,7 @@
 
 - **Clash / Mihomo / Clash Verge / FlClash (recommended):** `https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector5/main/clash.yaml`
 - **Base64:** `https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector5/main/subscription_base64.txt`
-- **Plain text:** `https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector5/main/subscription_raw.txt` (one `https://ip:port` per line)
+- **Plain text:** `https://raw.githubusercontent.com/paranoideveloper/CoreForge-Collector5/main/subscription_raw.txt` (one `https://ip:port?allowInsecure=1#name` per line)
 
 Each proxy is named `<flag> CoreForge Collector 5 NNN`: the flag is the **real exit country** (measured through the proxy, not guessed from its address) and `NNN` is the speed rank (001 = fastest). These are HTTP-over-TLS proxies, so in apps that take a single proxy set type **HTTPS** (or HTTP + TLS) with the IP and port; the proxy certificates are self-signed, so certificate checking must be off.
 
